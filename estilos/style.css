@@ -4,18 +4,55 @@
 }
 
 body {
-    background-color:rgb(54, 5, 100);
+    background-color: slategrey;
+}
 
+h1{
+    text-align: center;
+    font-size: 1.3em;
+    color: rgba(0, 0, 7, 0.637);
+    font-weight: bold;
+}
+
+h2{
+    text-align: center;
+}
+
+a{
+    font-weight: 900;
+    color: rgb(245, 246, 250);
+    text-decoration: none;
+}
+#menu{
+    text-align: center;
+    padding: 18px;
+    background-color: rgb(55, 54, 61);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.418);
+    
 }
 
 main {
     background-color: white;
     width: 900px;
     margin: auto;
-    padding: 10px;
+    padding: 20px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.418);
 }
 
-img.lado {
+img.lado{
     float: right;
 }
+
+img.displayed{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#rodape{
+    background-color: rgb(55, 54, 61);
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
