@@ -23,6 +23,10 @@ a{
     color: rgb(245, 246, 250);
     text-decoration: none;
 }
+
+p{
+    text-align: center;
+}
 #menu{
     text-align: center;
     padding: 18px;
